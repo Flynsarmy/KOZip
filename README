@@ -1,0 +1,15 @@
+Kohana 3.1 Zip module
+
+This module is based off the one found in CodeIgniter 2.0.2.
+It comes with an example controller /koziptest and 2 example files for zipping.
+
+Documentation can be found here:
+http://codeigniter.com/user_guide/libraries/zip.html
+
+Additions made by me include:
+- Chainable methods. read_file, read_dir and read_archive now throw Exceptions on error
+- 'download' method now takes a Request as its first parameter.
+
+For more information see:
+http://www.flynsarmy.com/2011/06/download-multiple-files-with-kohana-3-1-zip-library
+
